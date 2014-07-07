@@ -1,6 +1,6 @@
 # rubyemmiter
 
-A powerfull eventemitter mixin. Api is heavly inspired by node's EventEmitter.
+A powerfull eventemitter mixin.Inspired by node's EventEmitter.
 
 ## License (MIT)
 
