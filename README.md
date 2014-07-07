@@ -1,6 +1,6 @@
 # rubyemmiter
 
-A powerfull eventemitter mixin.Inspired by node's EventEmitter.
+A simple eventemitter mixin.Inspired by node's EventEmitter.
 
 ## License (MIT)
 
