@@ -1,5 +1,5 @@
+$:.unshift File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'rubyemitter'
-require 'pp'
 
 class Server
 
@@ -15,6 +15,10 @@ server = Server.new
 
 server.on('accept') do
   puts 'a new request recieved'
+end
+
+server.on('accept') do
+  puts 'another request'
 end
 
 server.run
